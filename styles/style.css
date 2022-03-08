@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Readex Pro', sans-serif;
+    margin: 0;
 }
 
 .orrange-text{
@@ -9,22 +10,29 @@ body{
 
 #welcome-section{
     display: flex;
+    background-image: url(../media/images/top-banner.png);
+    background-repeat: no-repeat;
 }
 
 #welcome-section h1{
     font-size: 50px;
+    font-weight: bold;
 }
 
 #welcome-section h3{
     font-size: 1.17em;
 }
 
-#welcome-image{
+.half-width{
     width: 50%;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
 }
 
-#welcome-image img{
-    height: 600px;
+.half-width img{
+    width: 100%;
 }
 
 #hire-button{
