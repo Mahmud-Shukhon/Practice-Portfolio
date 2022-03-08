@@ -8,10 +8,15 @@ body{
     color: orange;
 }
 
+.silver-text{
+    color: dimgray;
+}
+
 #welcome-section{
     display: flex;
     background-image: url(../media/images/top-banner.png);
     background-repeat: no-repeat;
+    padding-bottom: 150px;
 }
 
 #welcome-section h1{
@@ -35,11 +40,27 @@ body{
     width: 100%;
 }
 
-#hire-button{
+.link-button{
     text-decoration: none;
     background: linear-gradient(45deg, lightsalmon, tomato);
     padding: 10px 40px;
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+
+#dream-section{
+    display: flex;
+    background-image: url(../media/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#dream-section h2{
+    font-size: 40px;
+}
+
+#dream-section h3{
+    font-size: 1.17em;
+    font-weight: bold;
 }
